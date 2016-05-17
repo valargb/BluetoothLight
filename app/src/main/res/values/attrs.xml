@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="color_picker">
+
+        <!--背景圆的半径-->
+        <attr name="circle_radius" format="dimension"/>
+        <!--可滑动的小球半径-->
+        <attr name="center_radius" format="dimension"/>
+        <!--可滑动的小球颜色-->
+        <attr name="center_color" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="modelChild">
+
+        <attr name="imageView" format="integer"/>
+        <attr name="modelName" format="string"/>
+
+    </declare-styleable>
+
+</resources>
